@@ -293,3 +293,77 @@ footer .sponso img{
 footer .copy{
   padding: 2rem;
 }
+
+@media (max-width: 768px) {
+
+  .sect1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .sect1 img {
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  .sect1 p {
+    margin: 20px 0 0 0;
+    font-size: 20px;
+  }
+
+  .types {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    gap: 20px;
+  }
+
+  .sect0 .science,
+  .sect0 .novel,
+  .sect0 .fantasy,
+  .sect0 .perso-dev {
+    width: 60%;
+  }
+
+  nav .links {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .sect2 .st {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .sect2 .st .lect-perso {
+    width: 80%;
+  }
+
+  .sect2 .features {
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .sect2 .perso {
+    width: 90%;
+    font-size: 24px;
+  }
+
+  footer .links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  footer .brand-name {
+    width: 30%;
+  }
+
+  footer .sponso img {
+    width: 10%;
+  }
+
+}
