@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Poppins';
+  background-color: #F8F9FA;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.banner img{
+  width: 100%;
+}
+
+.sect1{
+  background-color: #eaeaf8;
+  padding: 5%;
+  display: flex;
+  flex-direction: row;
+}
+
+.sect1 span{
+  font-family: 'Caveat';
+  font-style: italic;
+  padding: 1%;
+  background-color: #8bd6ae;
+  border: 1px solid;
+  border-radius: 17px;
+}
+
+.sect1 p{
+  font-size: 26px;
+  margin-left: 7%;
+  margin-top: 12%;
+  align-items: center;
+}
+
+.sect1 img{
+  width: 45%;
+}
+
+.sect0{
+  padding: 5%;
+  font-size: 26px;
+}
+
+.sect0 span{
+  font-family: 'Caveat';
+  font-style: italic;
+  background-color:#a3bcd3;
+  padding: 1%;
+  border: 1px solid;
+  border-radius: 17px;
+}
+
+.sect0 .science img{
+  max-width: 100%;
+}
+
+.sect0 .science{
+  padding: 2%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 12%;
+  border: solid 2px #000000; 
+  border-radius: 18px;
+}
+
+.sect0 .science:hover{
+  cursor: pointer;
+  transform: scale(1.04);
+}
+
+.types{
+  margin-left: 15%;
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+}
+
+.sect0 .novel img{
+  max-width: 100%;
+}
+
+.sect0 .novel{
+  padding: 2%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 12%;
+  border: solid 2px #000000; 
+  border-radius: 18px;
+}
+
+.sect0 .novel:hover{
+  cursor: pointer;
+  transform: scale(1.04);
+}
+
+.sect0 .fantasy{
+  padding: 2%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 12%;
+  border: solid 2px #000000; 
+  border-radius: 18px;
+}
+
+.sect0 .fantasy:hover{
+  cursor: pointer;
+  transform: scale(1.04);
+}
+
+.sect0 .fantasy img{
+  max-width: 100%;
+}
+
+.sect0 .perso-dev{
+  padding: 2%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 12%;
+  border: solid 2px #000000; 
+  border-radius: 18px;
+}
+
+.sect0 .perso-dev:hover{
+  cursor: pointer;
+  transform: scale(1.04);
+}
+
+.sect0 .perso-dev img{
+  max-width: 100%;
+}
+
+.sect0{
+  text-align: center;
+}
+
+nav{
+  padding: 1.5%;
+  background: linear-gradient(to right, #a3bcd3, #f8f4ef);
+}
+
+nav .links{
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+}
+
+nav .links a{
+  color: #274393;
+  text-decoration: none;
+}
+
+nav .links a:hover{
+  text-decoration: underline;
+}
+
+.sect2{
+  padding: 10%;
+}
+
+.sect2 .perso{
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 26px;
+  padding: 5%;
+  border-radius: 16px;
+  margin-left: 1%;
+  width: 75%;
+  font-size: 30px;
+  background: #274393;
+  color: #fff;
+}
+
+.sect2 .perso:hover{
+  transform: scale(1.02);
+}
+
+.sect2 .perso span{
+  font-size: 30px;
+  font-family: 'Caveat';
+  color: #a3a3c9;
+  font-style: italic;
+}
+
+.sect2 .st{
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+}
+
+.sect2 .st .lect-perso{
+  cursor: pointer;
+  font-size: 22px;
+  width: 30%;
+  border-radius: 16%;
+  background-color: #fff;
+  padding: 2%;
+}
+
+.sect2 .st .lect-perso h4{
+  font-size: 26px;
+}
+
+.sect2 .features{
+  font-size: 22px;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  padding: 25px;
+}
+
+.sect2 .features .page{
+  cursor: pointer;
+  padding: 3%;
+  border-radius: 16%;
+  background-color: #fff;
+}
+
+.sect2 .features .aim{
+  cursor: pointer;
+  padding: 3%;
+  border-radius: 16%;
+  background-color: #fff;
+}
+
+.sect2 .features .organise{
+  cursor: pointer;
+  padding: 3%;
+  border-radius: 16%;
+  background-color: #fff;
+}
+
+footer{
+  color: #364455;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #a3a3c9;
+  text-align: center;
+}
+
+footer .brand-name{
+  margin: 0 auto;
+  padding: 0;
+  width: 10%;
+}
+
+footer .brand-name img{
+  width: 100%;
+}
+
+footer .links{
+  color: #364455;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+footer .links a{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+footer .links a:hover{
+  text-decoration: underline;
+}
+
+footer .sponso{
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+footer .sponso img{
+  width: 3%;
+  margin-left: 0.7rem;
+}
+
+footer .copy{
+  padding: 2rem;
+}
